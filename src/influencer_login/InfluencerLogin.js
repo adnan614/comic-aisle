@@ -3,20 +3,29 @@ import React from "react";
 const InfluencerLogin = () => {
   return (
     <div className="bg-gray-600">
-      <div className="">
+      <div class="">
         <img
           src="../assets/images/Transparent background Black border and yellow 1.png"
-          className="block pl-12 mt-8"
+          class="block lg:pl-12 lg:mt-8 h-[100px] pl-10 mt-5 mb-6"
         />
 
-        <div className="w-[450px] m-auto h-[420px] bg-black rounded-2xl">
-          <div className="p-16">
-            <h1 className="pb-7 text-white font-semibold text-2xl mt-4">
-              Login
-            </h1>
+        <div
+          class="
+          lg:w-[450px]
+          m-auto
+          lg:h-[380px]
+          h-[280px]
+          w-[250px]
+          bg-black
+          rounded-2xl
+          shadow-mmd
+        "
+        >
+          <div class="lg:p-16 p-6">
+            <h1 class="pb-7 text-white font-semibold text-2xl mt-4">Login</h1>
 
             <input
-              className="
+              class="
               h-[30px]
               w-full
               rounded-lg
@@ -29,7 +38,7 @@ const InfluencerLogin = () => {
               placeholder="Username"
             />
             <input
-              className="
+              class="
               h-[30px]
               w-full
               rounded-lg
@@ -43,13 +52,14 @@ const InfluencerLogin = () => {
             />
 
             <button
-              className="
+              class="
               uppercase
               bg-myyellow-50
               m-auto
               block
-              px-5
-              py-3
+              lg:px-5
+              py-2
+              px-3
               rounded-[40px]
               border border-black
               tracking-[2px]
